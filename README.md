@@ -2,7 +2,7 @@
 
 Validation forms
 
-## Setup
+## Installation
 
 ```bash
 yarn or npm install validate
@@ -51,3 +51,8 @@ yarn or npm install validate
     }
     ...
 ```
+
+## References
+
+https://drboolean.gitbooks.io/mostly-adequate-guide/content/
+https://github.com/concretesolutions/pareto.js/tree/master
