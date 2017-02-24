@@ -32,8 +32,8 @@ yarn or npm install validate
         handlerInput = ({ target }) => {
             const { name, value } = target;
 
-            const errors = createValidation().ap(isempty('name1', 'name1 is empty'))
-                                                .ap(isempty('name2', 'name2 is empty'))
+            const errors = createValidation().ap(isEmpty('name1', name, 'is empty'))
+                                                .ap(isEmpty('name2', name, 'is empty'))
                                                 .orElse(new Map())
                                                 .chain(e => e);
 
